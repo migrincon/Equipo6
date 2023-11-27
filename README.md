@@ -8,6 +8,17 @@
 #### Geovanny Gomez - g.gomezo2@uniandes.edu.co
 #### Miguel Rincon - ma.rinconr1@uniandes.edu.co
 
+# Sumario
+
+## Repositorio Git con los escenarios en Cypress
+https://github.com/maparrat/cypress_ghost/wiki/ 
+
+## Wiki de los escenarios
+https://github.com/migrincon/Equipo6/wiki  
+
+## Repositorio de incidencias
+https://github.com/migrincon/Equipo6/issues
+
 # 🔨 Instalación
 
 ## Detalle técnico
