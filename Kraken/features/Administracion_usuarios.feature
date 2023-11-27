@@ -1924,7 +1924,7 @@ Examples:
   | | | |||
   
  @user1 @web
-    Scenario: SC32 - Crear post y eliminarlo - Generación de datos a priori - Datos vacios
+    Scenario: SC52 - Crear post y eliminarlo - Generación de datos a priori - Datos vacios
     Given I navigate to page "<URL>"
     And I wait for 1 seconds
     When I enter email "<USERNAME1>"
@@ -1960,11 +1960,11 @@ Examples:
 
 Examples:	
 |USUARIO  | CORREO  | POST_TITLE    | POST_CONTENT1    |POST_CONTENT2    |URL|
-  | Pepito Andres Rodriguez Perez     | pa.rodriguez@uniandes.edu.co      | Titulo de Pepito| Conteniedo 1 de Pepito |Conteniedo 2 de Pepito |https://www.eltiempo.com/|
-  | Nicolas Alfonso Gomez Espitia     | na.alfonso@uniandes.edu.co      | Titulo de Nicolas | Contenido 1 de Nicolas |Contenido 2 de Nicolas |https://www.publimetro.co/|
+  | | | |||
+  | | | |||
   
  @user1 @web
-Scenario: SC33 - Creación de un nuevo usuario - Generación de datos a priori - Datos vacios
+Scenario: SC53 - Creación de un nuevo usuario - Generación de datos a priori - Datos vacios
     Given I navigate to page "<URL>"
     And I wait for 1 seconds
     When I enter email "<USERNAME1>"
@@ -1989,11 +1989,11 @@ Scenario: SC33 - Creación de un nuevo usuario - Generación de datos a priori -
 
 Examples:
 |USUARIO  | CORREO  | POST_TITLE    | POST_CONTENT1    |POST_CONTENT2    |URL|
-  | Pepito Andres Rodriguez Perez     | pa.rodriguez@uniandes.edu.co      | Titulo de Pepito| Conteniedo 1 de Pepito |Conteniedo 2 de Pepito |https://www.eltiempo.com/|
-  | Nicolas Alfonso Gomez Espitia     | na.alfonso@uniandes.edu.co      | Titulo de Nicolas | Contenido 1 de Nicolas |Contenido 2 de Nicolas |https://www.publimetro.co/|
+  | | | |||
+  | | | |||
   
  @user1 @web 
-Scenario: SC34 - Creación de un nuevo usuario y eliminarlo - Generación de datos a priori
+Scenario: SC54 - Creación de un nuevo usuario y eliminarlo - Generación de datos a priori - Datos vacios
 	Given I navigate to page "<URL>"
     And I wait for 1 seconds
     When I enter email "<USERNAME1>"
@@ -2027,11 +2027,11 @@ Scenario: SC34 - Creación de un nuevo usuario y eliminarlo - Generación de dat
 
 Examples:
 |USUARIO  | CORREO  | POST_TITLE    | POST_CONTENT1    |POST_CONTENT2    |URL|
-  | Pepito Andres Rodriguez Perez     | pa.rodriguez@uniandes.edu.co      | Titulo de Pepito| Conteniedo 1 de Pepito |Conteniedo 2 de Pepito |https://www.eltiempo.com/|
-  | Nicolas Alfonso Gomez Espitia     | na.alfonso@uniandes.edu.co      | Titulo de Nicolas | Contenido 1 de Nicolas |Contenido 2 de Nicolas |https://www.publimetro.co/|
+  | | | |||
+  | | | |||
   
  @user1 @web
-    Scenario: SC35 - Creación de un nuevo usuario y editarlo - Generación de datos a priori
+    Scenario: SC55 - Creación de un nuevo usuario y editarlo - Generación de datos a priori - Datos vacios
     Given I navigate to page "<URL>"
     And I wait for 1 seconds
     When I enter email "<USERNAME1>"
@@ -2061,11 +2061,11 @@ Examples:
 
 Examples:
 |USUARIO  | CORREO  | POST_TITLE    | POST_CONTENT1    |POST_CONTENT2    |URL|
-  | Pepito Andres Rodriguez Perez     | pa.rodriguez@uniandes.edu.co      | Titulo de Pepito| Conteniedo 1 de Pepito |Conteniedo 2 de Pepito |https://www.eltiempo.com/|
-  | Nicolas Alfonso Gomez Espitia     | na.alfonso@uniandes.edu.co      | Titulo de Nicolas | Contenido 1 de Nicolas |Contenido 2 de Nicolas |https://www.publimetro.co/|
+  | | | |||
+  | | | |||
   
  @user1 @web
-    Scenario: SC36 - Crear page - Generación de datos a priori
+    Scenario: SC56 - Crear page - Generación de datos a priori - Datos vacios
     Given I navigate to page "<URL>"
     And I wait for 1 seconds
     When I enter email "<USERNAME1>"
@@ -2096,11 +2096,11 @@ Examples:
 	
 Examples:
 |USUARIO  | CORREO  | PAGE_TITLE    | PAGE_CONTENT1    |PAGE_CONTENT2    |URL|
-  | Pepito Andres Rodriguez Perez     | pa.rodriguez@uniandes.edu.co      | Titulo de Pepito| Conteniedo 1 de Pepito |Conteniedo 2 de Pepito |https://www.eltiempo.com/|
-  | Nicolas Alfonso Gomez Espitia     | na.alfonso@uniandes.edu.co      | Titulo de Nicolas | Contenido 1 de Nicolas |Contenido 2 de Nicolas |https://www.publimetro.co/|
+  | | | |||
+  | | | |||
   
  @user1 @web
-    Scenario: SC37 - Crear page con Markdown - Generación de datos a priori
+    Scenario: SC57 - Crear page con Markdown - Generación de datos a priori - Datos vacios
     Given I navigate to page "<URL>"
     And I wait for 1 seconds
     When I enter email "<USERNAME1>"
@@ -2134,11 +2134,11 @@ Examples:
 
 Examples:
 |USUARIO  | CORREO  | PAGE_TITLE    | PAGE_CONTENT1    |PAGE_CONTENT2    |URL|
-  | Pepito Andres Rodriguez Perez     | pa.rodriguez@uniandes.edu.co      | Titulo de Pepito| Conteniedo 1 de Pepito |Conteniedo 2 de Pepito |https://www.eltiempo.com/|
-  | Nicolas Alfonso Gomez Espitia     | na.alfonso@uniandes.edu.co      | Titulo de Nicolas | Contenido 1 de Nicolas |Contenido 2 de Nicolas |https://www.publimetro.co/|
+  | | | |||
+  | | | |||
   
 @user1 @web
-    Scenario: SC38 - Crear page con HTML - Generación de datos a priori
+    Scenario: SC58 - Crear page con HTML - Generación de datos a priori - Datos vacios
     Given I navigate to page "<URL>"
     And I wait for 1 seconds
     When I enter email "<USERNAME1>"
@@ -2172,11 +2172,11 @@ Examples:
 	
 Examples:
 |USUARIO  | CORREO  | PAGE_TITLE    | PAGE_CONTENT1    |PAGE_CONTENT2    |URL|
-  | Pepito Andres Rodriguez Perez     | pa.rodriguez@uniandes.edu.co      | Titulo de Pepito| Conteniedo 1 de Pepito |Conteniedo 2 de Pepito |https://www.eltiempo.com/|
-  | Nicolas Alfonso Gomez Espitia     | na.alfonso@uniandes.edu.co      | Titulo de Nicolas | Contenido 1 de Nicolas |Contenido 2 de Nicolas |https://www.publimetro.co/|
+  | | | |||
+  | | | |||
   
 @user1 @web
-    Scenario: SC39 - Crear page con dos Divider - Generación de datos a priori
+    Scenario: SC59 - Crear page con dos Divider - Generación de datos a priori - Datos vacios
     Given I navigate to page "<URL>"
     And I wait for 1 seconds
     When I enter email "<USERNAME1>"
@@ -2214,11 +2214,11 @@ Examples:
 	
 Examples:
 |USUARIO  | CORREO  | PAGE_TITLE    | PAGE_CONTENT1    |PAGE_CONTENT2    |URL|
-  | Pepito Andres Rodriguez Perez     | pa.rodriguez@uniandes.edu.co      | Titulo de Pepito| Conteniedo 1 de Pepito |Conteniedo 2 de Pepito |https://www.eltiempo.com/|
-  | Nicolas Alfonso Gomez Espitia     | na.alfonso@uniandes.edu.co      | Titulo de Nicolas | Contenido 1 de Nicolas |Contenido 2 de Nicolas |https://www.publimetro.co/|
+  | | | |||
+  | | | |||
   
 @user1 @web
-    Scenario: SC40 - Crear page con public review - Generación de datos a priori
+    Scenario: SC60 - Crear page con public review - Generación de datos a priori - Datos vacios
     Given I navigate to page "<URL>"
     And I wait for 1 seconds
     When I enter email "<USERNAME1>"
@@ -2253,5 +2253,5 @@ Examples:
 
 Examples:
 |USUARIO  | CORREO  | PAGE_TITLE    | PAGE_CONTENT1    |PAGE_CONTENT2    |URL|
-  | Pepito Andres Rodriguez Perez     | pa.rodriguez@uniandes.edu.co      | Titulo de Pepito| Conteniedo 1 de Pepito |Conteniedo 2 de Pepito |https://www.eltiempo.com/|
-  | Nicolas Alfonso Gomez Espitia     | na.alfonso@uniandes.edu.co      | Titulo de Nicolas | Contenido 1 de Nicolas |Contenido 2 de Nicolas |https://www.publimetro.co/|
+  | | | |||
+  | | | |||
