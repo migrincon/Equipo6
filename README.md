@@ -4,9 +4,9 @@
 
 <h1 align="center">GRUPO 6 - Integrantes</h1>
 
-Miguel Parra - ma.parrat@uniandes.edu.co
-Geovanny Gomez - g.gomezo2@uniandes.edu.co
-Miguel Rincon - ma.rinconr1@uniandes.edu.co
+#### Miguel Parra - ma.parrat@uniandes.edu.co
+#### Geovanny Gomez - g.gomezo2@uniandes.edu.co
+#### Miguel Rincon - ma.rinconr1@uniandes.edu.co
 
 # 🔨 Instalación
 
@@ -61,3 +61,18 @@ Miguel Rincon - ma.rinconr1@uniandes.edu.co
 ### Instalación Ghost local en Windows 10 Pro
 - Ejecutar el comando ghost install local -d Ghost en la consola de Node.js command prompt
 ![Alt text](image-19.png)
+- Permitir el acceso de Firewall
+![Alt text](image-20.png)
+
+- Ghost queda instalado en la URL por defecto
+![Alt text](image-21.png)
+
+- Ingresar a Ghost en un navegador y configurar los parametros iniciales
+![Alt text](image-22.png)
+- Oprimir el boton crear cuenta y comenzar publicacion:
+![Alt text](image-23.png)
+
+- Hemos finalizado la instalación de Ghost
+![Alt text](image-24.png)
+
+### Instalación Kraken en Windows 10 Pro
