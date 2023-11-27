@@ -545,3 +545,50 @@ Then('I see member {kraken-string}', async function (member) {
     expect(member).to.equal(element_title);
     
   });
+
+  When('I click page to edit {kraken-string}', async function(page_title) {
+    let element = await this.driver.$('h3[class="gh-content-entry-title"]');
+    let element_title = await this.driver.$('h3[class="gh-content-entry-title"]').getText();
+    console.log(element_title);
+    console.log(page_title);
+    if(page_title == element_title)
+        {
+            return await element.click();
+        }
+     return "The page " + page_title +" don't exist";                         
+});
+
+Then('I see page {kraken-string}', async function (page_title) {
+    let element_title = await this.driver.$('h3[class="gh-content-entry-title"]').getText();
+    console.log(element_title);
+    console.log(page_title);
+    expect(page_title).to.equal(element_title);
+    
+  });
+
+  When('I click post to edit {kraken-string}', async function(post_title) {
+    let element = await this.driver.$('h3[class="gh-content-entry-title"]');
+    let element_title = await this.driver.$('h3[class="gh-content-entry-title"]').getText();
+    console.log(element_title);
+    console.log(post_title);
+    if(post_title == element_title)
+        {
+            return await element.click();
+        }
+     return "The post " + post_title +" don't exist";                         
+});
+
+Then('I see post {kraken-string}', async function (post_title) {
+    let element_title = await this.driver.$('h3[class="gh-content-entry-title"]').getText();
+    console.log(element_title);
+    console.log(post_title);
+    expect(post_title).to.equal(element_title);
+    
+  });
+
+  Then('I see member exists', async function () {
+    let element = await this.driver.$('div[class="form-group max-width error"]');
+    expect(1).to.equal(element.length);
+    
+  });
+  
