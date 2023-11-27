@@ -10,8 +10,19 @@
 
 # Sumario
 
+## Repositorio Git con los escenarios en Kraken
+https://github.com/migrincon/Equipo6
+
+### Instrucciones para ejecutar los escenarios en Kraken
+- Clonar el repositorio y ubicarse en la carpeta Kraken
+- Se deben haber instalado todos los prerequisitos expuestos en la sección de instalación
+- En el archivo .\features\Administracion_usuarios.feature dejar unicamente un escenario a probar
+- Sacar una copia del contenido de el archivo de feature
+- Ejecutar uno a uno los escenarios, salvando
+- Para ejecutar con Kraken utilizar el comando Kraken npx kraken-node run
+
 ## Repositorio Git con los escenarios en Cypress
-https://github.com/maparrat/cypress_ghost/wiki/ 
+https://github.com/maparrat/cypress_ghost/
 
 ## Wiki de los escenarios
 https://github.com/migrincon/Equipo6/wiki  
@@ -128,3 +139,11 @@ https://github.com/migrincon/Equipo6/issues
 ![Alt text](image-24.png)
 
 ### Instalación Kraken en Windows 10 Pro
+
+- Desde la consola ejecutar el comando el comando npm install kraken-node -g:
+![Alt text](image-25.png)
+
+- Con ello ya tenemos instalado Kraken
+![Alt text](image-26.png)
+
+- En la consola ejecutar el comando npm install --save-dev chai, para instalar los validadores de los escenarios.
