@@ -600,3 +600,7 @@ Then('I see post {kraken-string}', async function (post_title) {
     
   });
   
+  When('I enter HTML a normal body {string}', async function (body) {
+    let element = await this.driver.$('div[data-kg="editor"]');
+    return await element.setValue("<h1>"+body);
+});
