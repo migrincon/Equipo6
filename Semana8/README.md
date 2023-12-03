@@ -42,6 +42,8 @@ https://github.com/migrincon/Equipo6/blob/4ac7e8dcdbe6071fd3fcd625a6cf6ce9e04822
 ## Video Semana 8
 https://youtu.be/ABroFwng8cc 
 
+## Project con la planeación de las 8 semanas
+https://github.com/migrincon/Equipo6/blob/a8e5bcd0804680b5d16183d55ee0444ee9af2b7e/Semana8/Documentos/Plan_pruebas.mpp 
 
 # 🔨 Instalación
 
