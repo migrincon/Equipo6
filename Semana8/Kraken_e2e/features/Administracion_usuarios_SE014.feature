@@ -32,6 +32,6 @@ Feature: Administracion de usuarios
 
 Examples:
   | USUARIO  | CORREO  | POST_TITLE    | POST_CONTENT    |
-  | Pepito Andres Rodriguez Perez     | pa.rodriguez@uniandes.edu.co      | Titulo de Pepito| Conteniedo de Pepito |
+  | Alejandro Carlos Daniel Eduardo Fernando Gabriel Ignacio Javier Kevin  | pa.rodriguez@uniandes.edu.co      | Titulo de Pepito| Conteniedo de Pepito |
   | Nicolas Alfonso Gomez Espitia     | na.alfonso@uniandes.edu.co      | Titulo de Nicolas | Contenido de Nicolas |
 
