@@ -161,8 +161,8 @@ https://youtu.be/ABroFwng8cc
 
 - En la consola ejecutar el comando npm install --save-dev chai, para instalar los validadores de los escenarios.
 
-### Instrucciones para ejecutar en VM de Azure
-- Ingresar mediante escritorio remoto a la dirección grupo6.brazilsouth.cloudapp.azure.com
+### Instrucciones para ejecutar en VM Hosteada en Azure
+- Ingresar mediante RDP (escritorio remoto) a la dirección grupo6.brazilsouth.cloudapp.azure.com
 - Ingresar el usuario grupo6
 - Ingresar la clave Aurorita2023*
 - Si la aplicación Ghost no se encuentra activa, por favor ejecutar el acceso directo del escritorio "iniciar_ghost - Shortcut"
