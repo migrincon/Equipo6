@@ -591,4 +591,12 @@ Then('I see post {kraken-string}', async function (post_title) {
     expect(1).to.equal(element.length);
     
   });
+
+  Then('I see a post {string}', async function (post_title) {
+    let element_title = await this.driver.$('h3[class="gh-content-entry-title"]').getText();
+    console.log(element_title);
+    console.log(post_title);
+    expect(post_title).to.equal(element_title);
+    
+  });
   
