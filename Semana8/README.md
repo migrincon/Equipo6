@@ -31,6 +31,17 @@ https://github.com/migrincon/Equipo6/wiki/semana8
 https://github.com/migrincon/Equipo6/issues
 
 ## Estrategia de pruebas final
+https://github.com/migrincon/Equipo6/blob/4ac7e8dcdbe6071fd3fcd625a6cf6ce9e04822b4/Semana8/Documentos/estrategia-pruebas-version-final.docx
+
+## Presupuesto estrategia final
+https://github.com/migrincon/Equipo6/blob/4ac7e8dcdbe6071fd3fcd625a6cf6ce9e04822b4/Semana8/Documentos/Presupuesto.xlsx
+
+## Inventario pruebas exploratorias
+https://github.com/migrincon/Equipo6/blob/4ac7e8dcdbe6071fd3fcd625a6cf6ce9e04822b4/Semana8/Documentos/inventario-pruebas-exploratorias.xlsx
+
+## Video Semana 8
+https://youtu.be/ABroFwng8cc 
+
 
 # 🔨 Instalación
 
@@ -149,3 +160,10 @@ https://github.com/migrincon/Equipo6/issues
 ![Alt text](image-26.png)
 
 - En la consola ejecutar el comando npm install --save-dev chai, para instalar los validadores de los escenarios.
+
+### Instrucciones para ejecutar en VM de Azure
+- Ingresar mediante escritorio remoto a la dirección grupo6.brazilsouth.cloudapp.azure.com
+- Ingresar el usuario grupo6
+- Ingresar la clave Aurorita2023*
+- Si la aplicación Ghost no se encuentra activa, por favor ejecutar el acceso directo del escritorio "iniciar_ghost - Shortcut"
+- Ejecutar el acceso directo del escritorio "Ejecutar escenarios en Kraken"
