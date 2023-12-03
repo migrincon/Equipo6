@@ -11,7 +11,7 @@
 # Sumario
 
 ## Repositorio Git con los escenarios en Kraken
-https://github.com/migrincon/Equipo6
+https://github.com/migrincon/Equipo6/tree/main/Semana8
 
 ### Instrucciones para ejecutar los escenarios en Kraken
 - Clonar el repositorio y ubicarse en la carpeta Kraken
@@ -22,13 +22,15 @@ https://github.com/migrincon/Equipo6
 - Para ejecutar con Kraken utilizar el comando Kraken npx kraken-node run
 
 ## Repositorio Git con los escenarios en Cypress
-https://github.com/maparrat/cypress_ghost/
+https://github.com/maparrat/monkeyWeb
 
-## Wiki de los escenarios
-https://github.com/migrincon/Equipo6/wiki  
+## Wiki de la semana 8
+https://github.com/migrincon/Equipo6/wiki/semana8 
 
 ## Repositorio de incidencias
 https://github.com/migrincon/Equipo6/issues
+
+## Estrategia de pruebas final
 
 # 🔨 Instalación
 
