@@ -1,8 +1,7 @@
 Feature: Gestion post
 
-
 @user1 @web
-    Scenario: SE009 - Crear post con HTML
+    Scenario: SE012 - Crear post y eliminarlo - Generación de datos aleatorios
     Given I navigate to page "<URL>"
     And I wait for 1 seconds
     When I enter email "<USERNAME1>"
@@ -14,13 +13,9 @@ Feature: Gestion post
     And I click posts
     And I wait for 1 seconds
     And I click new post
-    And I enter post title "SE009:Ejemplo del atributo a href"
+    And I enter post title "$string1"
     And I click post body
-    And I click add a card
-    And I wait for 1 seconds
-    And I click add a HTML
-    And I wait for 1 seconds
-    And I enter HTML a normal body "<html> <head> <title>SE009:Ejemplo de atributo Href</title> </head>"
+    And I enter post body "$string3"
     And I wait for 1 seconds
     And I click publish
     And I wait for 1 seconds
@@ -32,5 +27,10 @@ Feature: Gestion post
     And I wait for 1 seconds
     And I click back to posts
     And I wait for 1 seconds
-    Then I see a post "SE009:Ejemplo del atributo a href"
-
+    And I click post to delete "$$string1"
+	And I click post settings
+	And I click post trash
+    And I wait for 1 seconds
+	And I click post delete
+	And I wait for 1 seconds
+    Then I do not see post "$$string1"
